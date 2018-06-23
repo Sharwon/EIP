@@ -1,0 +1,33 @@
+= Project Log Document
+SBNET <https://eng.uber.com/sbnet/>
+:doctype: book
+:reproducible:
+//:source-highlighter: coderay
+:source-highlighter: rouge
+:listing-caption: Listing
+// Uncomment next line to set page size (default is A4)
+//:pdf-page-size: Letter
+
+
+== Introduction
+
+The logs are of these sub-categories.
+
+[square]
+* Dataset Generation.
+* sbnet compilation.
+* colab trails.
+* aws trials.
+* miscelleaneous
+
+Say "`Hello, World!`" in Prawn:
+
+.Create a basic PDF document using Prawn
+[source,ruby]
+----
+require 'prawn'
+
+Prawn::Document.generate 'example.pdf' do
+  text 'Hello, World!'
+end
+----
