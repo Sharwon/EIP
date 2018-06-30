@@ -22,12 +22,11 @@ The logs are of these sub-categories.
 
 Say "`Hello, World!`" in Prawn:
 
-.Create a basic PDF document using Prawn
-[source,ruby]
+.Create a basic function python
+[source,python]
 ----
-require 'prawn'
+def function():
+  var = 123
 
-Prawn::Document.generate 'example.pdf' do
-  text 'Hello, World!'
 end
 ----
