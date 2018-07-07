@@ -20,13 +20,4 @@ The logs are of these sub-categories.
 * aws trials.
 * miscelleaneous
 
-Say "`Hello, World!`" in Prawn:
-
-.Create a basic function python
-[source,python]
-----
-def function():
-  var = 123
-
-end
-----
+> The project logs are yet to be updated. It will be done, once I complete exploring cuDNN implementations of Convolutions.
